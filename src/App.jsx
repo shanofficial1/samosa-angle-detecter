@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 // Initialize Gemini API
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 
-const messages = [
+const messages = [  
   "Analyzing samosa geometry...",
   "Evaluating crispiness patterns...",
   "Consulting with AI food experts...",
